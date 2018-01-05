@@ -1,0 +1,93 @@
+Group: core-gdal
+  time: 20180105T003739+0000 - 20180105T003809+0000
+  total duration:       30
+  requests:             1545
+  requests per second:  51
+  response duration (ms)
+    min:                1
+    average:            192
+    max:                6558
+    standard deviation: 573
+    quantiles (ms)
+         10%        4
+         20%        7
+         30%       11
+         40%       16
+         50%       22
+         60%       30
+         70%       41
+         80%       64
+         90%      286
+         99%     2428
+       99.9%     4292
+      100.0%     6558 (max. value)
+  response size (bytes)
+    total:              38049577
+    min:                493
+    average:            24627
+    max:                85085
+    standard deviation: 22576
+  response status codes
+    200:                1545 (100%)
+Group: core_getmap-gdal
+  time: 20180105T003815+0000 - 20180105T003841+0000
+  total duration:       29
+  requests:             138
+  requests per second:  4
+  response duration (ms)
+    min:                168
+    average:            2232
+    max:                10800
+    standard deviation: 2150
+    quantiles (ms)
+         10%      591
+         20%      903
+         30%     1145
+         40%     1385
+         50%     1658
+         60%     1868
+         70%     2111
+         80%     2529
+         90%     5607
+         99%    10054
+       99.9%    10371
+      100.0%    10800 (max. value)
+  response size (bytes)
+    total:              59866118
+    min:                2310
+    average:            433812
+    max:                1180973
+    standard deviation: 357095
+  response status codes
+    200:                 138 (100%)
+Group: gdal_getmap-gdal
+  time: 20180105T003852+0000 - 20180105T003922+0000
+  total duration:       30
+  requests:             322
+  requests per second:  10
+  response duration (ms)
+    min:                24
+    average:            924
+    max:                2632
+    standard deviation: 641
+    quantiles (ms)
+         10%      124
+         20%      158
+         30%      224
+         40%      801
+         50%     1003
+         60%     1178
+         70%     1301
+         80%     1452
+         90%     1724
+         99%     2319
+       99.9%     2589
+      100.0%     2632 (max. value)
+  response size (bytes)
+    total:              113287416
+    min:                2305
+    average:            351824
+    max:                885967
+    standard deviation: 341940
+  response status codes
+    200:                 322 (100%)
